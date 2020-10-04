@@ -43,14 +43,14 @@ The task involves the following steps:-
       
       Once the process is done, your browser will go to a screen similar to the repository image above, except that at the top you will see your username before the repository name, and in the URL it will also say your username before the repository name.
       This creates a copy of the repo under your GitHub account which includes all the code, branches, and commits from the original repo with the URL like: 
-      ```https://github.com/<YourUserName>/demo```
+      ```https://github.com/your-username/Competitive-Programming-Pull-Request```
           
    2. Clone the Repository
       
       To make your own local copy of the repository you would like to contribute to, let’s first open up a terminal window.(*make sure you've already installed git*)
       We’ll use the ```git clone``` command along with the URL that points to your fork of the repository.
       
-      ```$ git clone https://github.com/your-username/repository.git```
+      ```$ git clone https://github.com/your-username/Competitive-Programming-Pull-Request.git```
    
    3. Make a new branch
       
@@ -74,4 +74,4 @@ The task involves the following steps:-
       
    6. Sync Fork
      
-      Next, we’ll specify a new remote upstream repository for us to sync with the fork. This will be the original repository that we forked from. We’ll do this with the ```git remote``` add command: ```$ git remote add upstream https://github.com/original-owner-username/original-repository.git```
+      Next, we’ll specify a new remote upstream repository for us to sync with the fork. This will be the original repository that we forked from. We’ll do this with the ```git remote``` add command: ```$ git remote add upstream https://github.com/CodeX-SFIT/Competitive-Programming-Pull-Request```
