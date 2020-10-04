@@ -28,3 +28,47 @@ The task involves the following steps:-
 <a name="pull">
 
 ## How to make a pull request
+
+### Here are the steps:-
+   1. Fork the Repository
+      
+      You can fork a repository on GitHub by navigating with your browser to the GitHub URL of the open-source project you would like to contribute to.
+      You can use the [our demo repo for practice](https://github.com/CodeX-SFIT/Competitive-Programming-Pull-Request)
+      
+      When you’re on the main page for the repository, you’ll see a **Fork** button on your upper right-hand side of the page, underneath your user icon:
+      
+      ![]()
+      
+      Click on the fork button to start the forking process.
+      
+      Once the process is done, your browser will go to a screen similar to the repository image above, except that at the top you will see your username before the repository name, and in the URL it will also say your username before the repository name.
+      This creates a copy of the repo under your GitHub account which includes all the code, branches, and commits from the original repo with the URL like: 
+      ```https://github.com/<YourUserName>/demo```
+          
+   2. Clone the Repository
+      
+      To make your own local copy of the repository you would like to contribute to, let’s first open up a terminal window.(*make sure you've already installed git*)
+      We’ll use the ```git clone``` command along with the URL that points to your fork of the repository.
+      
+      ```$ git clone https://github.com/your-username/repository.git```
+   
+   3. Make a new branch
+      
+      Once the repo is cloned, you'll nee to do the following steps:
+         1. Create our new branch with the ```git branch``` command. Make sure you name it descriptively so that others working on the project understand what you are working on. ``` $ git branch new-branch```
+         2. Now that our new branch is created, we can switch to make sure that we are working on that branch by using the ```git checkout``` command: ```$ git checkout new-branch```
+         
+      Alternatively, you can condense the above two commands, creating and switching to a new branch, with the following command and ```-b``` flag: ``` $ git checkout -b new-branch```
+      
+   4. Make Changes Locally
+      Once you have modified an existing file or added a new file to the project, you can add it to your local repository, which we can do with the git add command. : ``` $ git add .```
+      
+      With our file staged, we’ll want to record the changes that we made to the repository with the ```git commit``` command.
+      
+      The commit message is an important aspect of your code contribution.If we have a very short message, we can record that with the -m flag and the message in quotes:```$ git commit -m "<Changes you've made>"```
+      
+   5. Push Changes
+      At this point you can use the git push command to push the changes to the current branch of your forked repository: ``` $ git push --set-upstream origin new-branch```
+      
+   6. Sync Fork
+      Next, we’ll specify a new remote upstream repository for us to sync with the fork. This will be the original repository that we forked from. We’ll do this with the ```git remote``` add command: ```$ git remote add upstream https://github.com/original-owner-username/original-repository.git```
