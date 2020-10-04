@@ -61,6 +61,7 @@ The task involves the following steps:-
       Alternatively, you can condense the above two commands, creating and switching to a new branch, with the following command and ```-b``` flag: ``` $ git checkout -b new-branch```
       
    4. Make Changes Locally
+      
       Once you have modified an existing file or added a new file to the project, you can add it to your local repository, which we can do with the git add command. : ``` $ git add .```
       
       With our file staged, we’ll want to record the changes that we made to the repository with the ```git commit``` command.
@@ -68,7 +69,9 @@ The task involves the following steps:-
       The commit message is an important aspect of your code contribution.If we have a very short message, we can record that with the -m flag and the message in quotes:```$ git commit -m "<Changes you've made>"```
       
    5. Push Changes
+      
       At this point you can use the git push command to push the changes to the current branch of your forked repository: ``` $ git push --set-upstream origin new-branch```
       
    6. Sync Fork
+     
       Next, we’ll specify a new remote upstream repository for us to sync with the fork. This will be the original repository that we forked from. We’ll do this with the ```git remote``` add command: ```$ git remote add upstream https://github.com/original-owner-username/original-repository.git```
