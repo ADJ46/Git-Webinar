@@ -19,8 +19,8 @@ The Markdown sheet must have the following:-
   
 The task involves the following steps:-
   * Making a Branch in this repository.
-  * Maing a Markdown file with the contents given above.
-  * Commiting the chenges.
+  * Making a Markdown file with the contents given above.
+  * Commiting the changes.
   * Pushing the changes.
   * Making a pull request.
 
