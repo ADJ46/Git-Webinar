@@ -36,7 +36,7 @@ The task involves the following steps:-
       
       When you’re on the main page for the repository, you’ll see a **Fork** button on your upper right-hand side of the page, underneath your user icon:
       
-      ![](https://github.com/CodeX-SFIT/Git-Webinar/edit/master/Images/fork.gif)
+      ![](https://github.com/CodeX-SFIT/Git-Webinar/blob/master/Images/fork.gif)
       
       Click on the fork button to start the forking process.
       
@@ -80,9 +80,9 @@ The task involves the following steps:-
        At this point, you are ready to make a pull request to the original repository.
        You should navigate to your forked repository, and press the “New pull request” button on your left-hand side of the page.
               
-       ![]()
+       ![](https://github.com/CodeX-SFIT/Git-Webinar/blob/master/Images/PRButton.png)
        
-       ![]()
+       ![](https://github.com/CodeX-SFIT/Git-Webinar/blob/master/Images/PullRequest.png)
 
    8. Conclusion
        
