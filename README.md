@@ -4,7 +4,6 @@ This repository will contain the instructions that are needed to complete the ta
 ## Contents
 * [Description of task](#desc)
 * [How to make a pull request](#pull)
-* [Hacktober fest](#hack)
 
 <a name='desc'>
 
@@ -75,3 +74,18 @@ The task involves the following steps:-
    6. Sync Fork
      
       Next, we’ll specify a new remote upstream repository for us to sync with the fork. This will be the original repository that we forked from. We’ll do this with the ```git remote``` add command: ```$ git remote add upstream https://github.com/CodeX-SFIT/Competitive-Programming-Pull-Request```
+      
+   7. Create a Pull Request
+   
+       At this point, you are ready to make a pull request to the original repository.
+       You should navigate to your forked repository, and press the “New pull request” button on your left-hand side of the page.
+              
+       ![]()
+       
+       ![]()
+
+   8. Conclusion
+       
+      At this point, you have successfully sent a pull request to an open-source software repository. Following this, you should make sure to update and rebase your code while you are waiting to have it reviewed. Project maintainers may ask for you to rework your code, so you should be prepared to do so.
+
+      Contributing to open-source projects — and becoming an active open-source developer — can be a rewarding experience. Making regular contributions to software you frequently use allows you to make sure that that software is as valuable to other end users as it can be.
