@@ -36,7 +36,7 @@ The task involves the following steps:-
       
       When you’re on the main page for the repository, you’ll see a **Fork** button on your upper right-hand side of the page, underneath your user icon:
       
-      ![]()
+      ![](https://github.com/CodeX-SFIT/Git-Webinar/edit/master/Images/fork.gif)
       
       Click on the fork button to start the forking process.
       
