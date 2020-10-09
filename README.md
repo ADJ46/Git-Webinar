@@ -9,16 +9,18 @@ This repository will contain the instructions that are needed to complete the ta
 
 ## Description of Task
 The basic motive of this task if to enable the participants to practice the commands learnt in the Webinar held.
-Participants will have to make a branch and on that branch they will have to make a Markdown sheet that should contain a Competitive Programming Question.
+Participants will have to make a branch and on that branch they will have to make a Pull Request that should contain a a code file (i.e. a file with the extension .c .py .html etc) and a basic Markdown file (a.k.a. README.md file).
 
-The Markdown sheet must have the following:-
-  * Title of the question.
-  * A snippet of the Coded Solution
-  * A short paragraph on the method used to solve it.
-  * A link to the question.(If possible)
+The code file must have the following:-
+  * Atleast 15 lines of code.
+
+The Markdown file must have the following:-
+  * An appropriate title.
+  * Name of the the participant.
   
 The task involves the following steps:-
-  * Making a Branch in this repository.
+  * Making a Branch in this [repository](https://github.com/CodeX-SFIT/Competitive-Programming-Pull-Request).
+  * Making a folder in the directory relavent to your code file.
   * Making a Markdown file with the contents given above.
   * Commiting the changes.
   * Pushing the changes.
